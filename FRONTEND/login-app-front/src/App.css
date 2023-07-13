@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  overflow: hidden;
+}
+
+/* NavBar */
+.nav {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 5.5em;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 8%;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+
+/* HomePage */
+.home-bg {
+  background-image: url(code.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 950px;
+  position: relative;
+}
+.home-div {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  width: 35%;
+}
+.home-div h1 {
+  color: antiquewhite;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.home-div p {
+  color: antiquewhite;
+  line-height: 26px;
+  text-align: justify;
+}
+.home-div button {
+  background-color: rgb(111, 141, 121);
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-top: 1em;
+  padding: 1em;
+  transition: .3s ease-in-out;
+}
+.home-div button:hover {
+  background-color: rgb(58, 138, 85);
+}
+
+/* LoginPage */
+.login-div {
+  height: 950px;
+  position: relative;
+}
+.login-div form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-div form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: .5em 0;
+  width: 100%;
+}
+.login-div form button {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  margin-top: .5em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: .5em 2em;
+}
+
+/* RegisterPage */ 
+.register-div {
+  height: 950px;
+  position: relative;
+}
+.register-div form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+}
+.register-div form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: .5em 0;
+  width: 100%;
+}
+.register-div form button {
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  margin-top: .5em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: .5em 2em;
+}
